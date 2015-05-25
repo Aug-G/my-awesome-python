@@ -7,7 +7,7 @@ import urllib
 import platform
 
 
-google_hosts_url = "http://www.360kb.com/kb/2_150.html"
+google_hosts_url = "http://www.360kb.com/kb/2_122.html"
 
 windows_hosts_path = "C:\\Windows\\System32\\drivers\\etc\\hosts"
 linux_hosts_path = "/etc/hosts"
