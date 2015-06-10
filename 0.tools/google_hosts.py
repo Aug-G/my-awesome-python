@@ -1,7 +1,7 @@
 #coding:utf-8
 # google hosts
 # 从定期更新的博客上抓取google host
-# 目前支持windows 持续支持mac
+# 目前支持windows/mac/linux
 
 import urllib
 import platform
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     path = ""
     if os_name == "Windows":
         path = windows_hosts_path
-    elif os_name == "Linux":
+    elif os_name == "Linux" or os_name == "Darwin":
         path = linux_hosts_path
 
     f = open(path,"w")
